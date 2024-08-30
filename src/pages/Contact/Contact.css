@@ -25,8 +25,9 @@
 }
 .t2{
     font-size:3rem;
-    color:black;
+    color:#791dae;
     margin: 0 auto;
+    
 }
 .formcont{
     overflow: hidden;
@@ -63,9 +64,6 @@
 
 .out{
     display:flex;
-    /* flex-direction:column;
-    align-items: center;
-    justify-content: center; */
     overflow: hidden;
 }
 
@@ -79,7 +77,6 @@
 }
 
 .div2{
-    /* background-image: url("https://wallpapercave.com/wp/wp4863801.jpg") ; */
     background-color: rgb(141, 143, 145);
     box-shadow: 8px 8px 8px 8px black;
     display:inline-block;
@@ -95,39 +92,6 @@
     margin-bottom:2rem;
 }
 
-/* @media screen and (max-width: 320px) {
-    .title{
-        font-size: 1.6rem;
-    }
-    .out{
-        flex-direction:column !important;
-        align-items: center !important;
-        justify-content: center !important;
-    }
-    .text1{
-        font-size:1rem;
-    }
-    
-  }
-  @media screen and (max-width: 375px) {
-    .out{
-        flex-direction:column !important;
-        align-items: center !important;
-        justify-content: center !important;
-    }
-    .centainer{
-        width:100vw;
-    }
-    .text1{
-        font-size:0.8rem;
-    }
-    .div2{
-        width:22rem !important;
-        height: 38rem !important;
-        margin-left:1.6rem;
-    }
-      
-  } */
 
   @media screen and (min-width: 320px) and (max-width: 426px) {
     .out{
@@ -136,15 +100,29 @@
         justify-content: center !important;
     }
     .text1{
-        font-size:0.9rem !important;
+        font-size:0.76rem !important;
+        padding: auto;
     }
+    .tag{
+        font-size:1rem;
+        font-weight:bold;
+    }
+    .o2{
+        margin:auto;
+    }
+    .img{
+        height:9rem;
+        width:9rem;
+        box-shadow: 5px 5px 5px 5px black;
+        border-radius:1rem;
+   }
     .div2{
-        width:18rem !important;
-        height: 30rem !important;
-        margin-left:1.5rem !important;
+        width:17rem !important;
+        height: 28rem !important;
+        margin-left:0.5rem !important;
     }
     .table{
-        margin-left:2rem;
+        margin-left:0.5rem;
     }
     .div1{
         width:25rem;
@@ -155,6 +133,23 @@
     }
     .t2{
         font-size:1.2rem;
+    }
+    .btn{
+        box-shadow:1px 1px 1px black;
+        margin-left:3vw;
+        width:5rem;
+        height:2rem;
+        color:white; 
+        background-color:blueviolet;
+        font-size:1rem;
+        margin-top:0.5rem;
+        border-radius:1rem;
+    }
+    .add{
+        color:#791dae;
+    }
+    .desc{
+        font-size:0.7rem;
     }
       
     }
@@ -169,6 +164,7 @@
     .add{
         font-size:1.2rem;
     }
+    
     .desc{
         font-size:0.9rem;
     }
@@ -176,11 +172,15 @@
         width:40rem;
     }
     .div2{
+        margin-top:2rem;
         width:42rem;
-        margin-right:2rem;
+        height:40rem;
+        margin:2rem;
     }
     .table{
-        margin-left:2rem;
+        margin-top:2rem;
+        margin-left:1rem;
+        margin-bottom:4rem;
     }
     .img{
         height:9rem;
@@ -214,11 +214,16 @@
         }
         .div2{
             width:40rem;
-            height:44rem;
+            height:45rem;
             margin-right:2rem;
             margin-top:3.3rem;
         }
         .label{
             font-size:1.5rem;
-           }      
+           }    
+           .table{
+            margin-top:2.5rem;
+            margin-left:3rem;
+            margin-bottom:6rem;
+        }  
       }

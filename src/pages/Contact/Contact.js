@@ -49,10 +49,12 @@ export default function Contact(){
       <h2 className="title"><u>Contact Us</u></h2>
       <div className="out">
         <div className="div1">
+        <div className="o2">
         <p className="text1"> 
         We are dedicated to transforming the salon industry by<br/> seamlessly connecting salon owners with customers through <br/>innovative and convenient solutions.
         Our platform acts as<br/> a bridge, offering exceptional salon services to discerning <br/>customers who seek high-quality experiences.
         </p>
+        </div>
         <div>
           <p className="tag">Connect with us on Instagram</p><br/>
           <img src={vyleeqr} className="img" alt="qrcode"/>

@@ -2,26 +2,19 @@
     display:flex;
     align-items: center;
     justify-content: center;
-    height:100vh;
-    /* background-color:rgb(158, 150, 158); */
+    height:fit-content;
     background: url("https://images.unsplash.com/photo-1515339760107-1952b7a08454?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   
 }
 
 .addUser {
     background-color: white;
-    width: 35%;
-    height:35rem;
-    
-    /* margin in top and bottom will be 50px  */
-    /* left and right auto  */
-    padding: 2rem;
+    width: 35vw;
+    height:33rem;
+    margin:2rem;
+    padding:2rem;
     border-radius: 1rem;
     box-shadow: 8px 8px 8px 8px black;
-  
-    /* horizon offset vertical offset blur offset  */
-    /* opacity of shadow */
-    /* red, green, blue, and (opacity ). */
   }
   .addUserForm .inputGroup {
     width: 100%;
@@ -30,12 +23,21 @@
   }
   
   .addUserForm .inputGroup label {
-    margin-top: 10px;
+    margin-top: 1rem;
   }
-  
+  .buutn{
+    box-shadow:1px 1px 1px black;
+    margin:auto;
+    width:8rem;
+    height:3rem;
+    color:white; 
+    background-color:blueviolet;
+    font-size:1.5rem;
+    border-radius:1rem;
+}
   .addUserForm .inputGroup input {
-    margin-top: 5px;
-    padding: 10px;
+    margin-top: 0.2rem;
+    padding: 1rem;
   }
   .fp{
     text-align: left;
@@ -75,4 +77,36 @@
     color: darkcyan;
     text-transform: uppercase;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  }
+  @media screen and (min-width: 320px) and (max-width: 426px) {
+    .buutn{
+      box-shadow:1px 1px 1px black;
+      margin:auto;
+      width:5rem;
+      height:2rem;
+      color:white; 
+      background-color:blueviolet;
+      font-size:1rem;
+      border-radius:0.5rem;
+  }
+  .addUser h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size:1.4rem;
+    color: darkcyan;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  }
+  .addUser {
+    background-color: white;
+    width: 60vw;
+    height:33rem;
+    margin:2rem;
+    padding:2rem;
+    border-radius: 1rem;
+    box-shadow: 8px 8px 8px 8px black;
+  }
+  .para{
+    font-size: 0.9rem;
+  }
   }

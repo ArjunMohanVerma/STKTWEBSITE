@@ -34,7 +34,7 @@ const Signup = () => {
             id="name"
             name="name"
             autoComplete="off"
-            placeholder="Enter your name"
+            placeholder="Name"
             onChange={handleChange} value={details.name}
             required
           /><br/>
@@ -44,7 +44,7 @@ const Signup = () => {
             id="email"
             name="email"
             autoComplete="off"
-            placeholder="Enter your Email"
+            placeholder="Email"
             onChange={handleChange} value={details.email}
             required
           /><br/>
@@ -54,19 +54,19 @@ const Signup = () => {
             id="password"
             name="password"
             autoComplete="off"
-            placeholder="Enter Password"
+            placeholder="Password"
             onChange={handleChange} value={details.password}
             required
           /><br/>
          
-          <button type="submit" onClick={handleClick} className="btn btn-success b">
+          <button type="submit" onClick={handleClick} className="buutn">
             Sign Up
           </button>
          
         </div>
       </form>
       <div className="ln">
-        <p className="par">Already have an Account?&nbsp;&nbsp;<Link to="/login" className="lgin">
+        <p className="paar">Already have an Account?&nbsp;&nbsp;<Link to="/login" className="lgin">
           Login
         </Link>
         </p>

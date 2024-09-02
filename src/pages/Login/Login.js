@@ -35,7 +35,7 @@ const Login = () => {
             id="email"
             name="email"
             autoComplete="off"
-            placeholder="Enter your Email"
+            placeholder="Email"
             required
             onChange={handleChange} value={details.email}
           /><br/>
@@ -45,12 +45,12 @@ const Login = () => {
             id="password"
             name="password"
             autoComplete="off"
-            placeholder="Enter your Password"
+            placeholder="Password"
             required
             onChange={handleChange} value={details.password}
           />
           <Link to="" className="fp">Forgot Password </Link><br/><br/>
-          <button type="submit" onClick={handleClick} className="btn bt btn-primary">
+          <button type="submit" onClick={handleClick} className="buutn">
             Login
           </button>
         </div>

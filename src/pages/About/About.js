@@ -1,10 +1,10 @@
 import "./About.css";
-import video from './video.mp4';
 import {ReactTyped} from "react-typed";
 import React, { useState } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
 import ReactPlayer from 'react-player';
+import VideoCarousel from "../VideoCarousel/VideoCarousel";
+
 
 const imageData = [
   {
@@ -107,44 +107,8 @@ export default function About() {
       <div>
       <h3 className="ws">Browse through some of our videos</h3>
       <br />
-      <div className="appyy">
-      <Carousel
-        showArrows={true}
-        autoPlay={true}
-        infiniteLoop={true}
-        selectedItem={imageData[currentIndex]}
-        onChange={handleChange}
-        className="carousel-container"
-      >
-        {renderSlides}
-      </Carousel>
-      </div>
-      {/* <div className="videos">
-      <video
-          width="560"
-          height="315"
-          src={video}
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen controls
-        ></video>
-        <video
-          width="560"
-          height="315"
-          src={video}
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen controls
-        ></video>
-        <video
-          width="560"
-          height="315"
-          src={video}
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen controls
-        ></video>
-        </div> */}
+      <VideoCarousel/>
+      <br/><br/>
       </div>
     </div>
  </>

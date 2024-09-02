@@ -1,6 +1,8 @@
 import React ,{ useState}from "react";
 import "./Login.css";
 import { Link } from "react-router-dom";
+import Nav from "../Navbar/Nav"
+import Footer from "../Footer/Footer"
 
 const Login = () => {
   const [details, setDetails] = useState({
@@ -23,6 +25,7 @@ const Login = () => {
 
   return (
     <>
+    <Nav/>
     <div className="ct">
     <div className="addUser">
       <h3>Log in</h3>
@@ -63,6 +66,7 @@ const Login = () => {
       </div>
     </div>
     </div>
+    <Footer/>
     </>
   );
 };

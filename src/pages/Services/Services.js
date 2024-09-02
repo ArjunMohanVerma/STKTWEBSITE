@@ -6,6 +6,8 @@ import Product from "./Product";
 import { productData, responsive } from "./Data";
 import React from "react";
 import "./Services.css";
+import Nav from "../Navbar/Nav"
+import Footer from "../Footer/Footer"
 
 
 
@@ -21,7 +23,7 @@ export default function Services() {
 
   return (
     <>
-    
+    <Nav/>
     <div className="App" >
       <h1 style={{fontSize:"2.5rem", color:"#791dae"}}>Our Services</h1>
       <div>
@@ -44,7 +46,7 @@ export default function Services() {
       <br/><br/><br/>
       </div>
       
-      
+      <Footer/>
     
     </>
   );

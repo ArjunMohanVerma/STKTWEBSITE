@@ -2,6 +2,8 @@ import React from "react";
 import './Home.css';
 import {ReactTyped} from "react-typed";
 import ImageSlider from "./ImageSlider";
+import Nav from "../Navbar/Nav"
+import Footer from "../Footer/Footer"
 
 
 
@@ -9,6 +11,7 @@ import ImageSlider from "./ImageSlider";
 
 const Home = () => {
       return (<>
+      <Nav/>
         <div className="home-container">
           <div>
                 <ImageSlider className="slider"/>
@@ -31,6 +34,7 @@ const Home = () => {
           
         </div><br/><br/>
       </div>
+      <Footer/>
       </>
     );
   };

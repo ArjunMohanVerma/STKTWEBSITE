@@ -1,6 +1,10 @@
+import Nav from "../Navbar/Nav"
+import Footer from "../Footer/Footer"
+
 export default function Details(){
     return(
         <>
+        <Nav/>
         <div style={{diplay:"flex", textAlign:"center"}}>
         <h2>Skin Care!</h2>
         <p>
@@ -21,6 +25,7 @@ export default function Details(){
 
         </p>
         </div>
+        <Footer/>
         </>
     )
 }

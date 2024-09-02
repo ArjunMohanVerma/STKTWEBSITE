@@ -3,6 +3,8 @@ import { useRef } from "react";
 import vyleeqr from"./vyleeqr.png";
 import emailjs from '@emailjs/browser';
 import "./Contact.css";
+import Nav from "../Navbar/Nav"
+import Footer from "../Footer/Footer"
 
 
 
@@ -45,6 +47,7 @@ export default function Contact(){
 
   return(
     <>
+    <Nav/>
     <div className="centainer">
       <h2 className="title"><u>Contact Us</u></h2>
       <div className="out">
@@ -107,6 +110,7 @@ export default function Contact(){
 
         </div><br/>
         </div>
+        <Footer/>
 </>
 )};
 

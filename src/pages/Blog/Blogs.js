@@ -4,6 +4,8 @@ import "./Blog.css"
 import image1 from "./apt.jpg";
 import image2 from './CA.jpg'
 import image3 from './CE.jpg'
+import Nav from "../Navbar/Nav"
+import Footer from "../Footer/Footer"
 
 const cards = [
   {
@@ -33,6 +35,8 @@ const cards = [
 
 function Blogs() {
   return (
+    <>
+    <Nav/>
     <div className="conainer d-flex justify-content-center align-items-center h-100">
       <br/>
       <div className="rw">
@@ -51,6 +55,8 @@ function Blogs() {
       </div>
       <br/>
     </div>
+    <Footer/>
+    </>
   );
 }
 

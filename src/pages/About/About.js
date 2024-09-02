@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import ReactPlayer from 'react-player';
 import VideoCarousel from "../VideoCarousel/VideoCarousel";
+import Nav from "../Navbar/Nav"
+import Footer from "../Footer/Footer"
 
 
 const imageData = [
@@ -68,6 +70,7 @@ export default function About() {
   }
  return (
  <>
+ <Nav/>
  <div className="about" >
       <h1 className="h1c">About Us</h1>
       <p className="ft">Find Top-Rated{" "}
@@ -111,6 +114,7 @@ export default function About() {
       <br/><br/>
       </div>
     </div>
+    <Footer/>
  </>
  )
 }

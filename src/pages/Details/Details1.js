@@ -1,7 +1,7 @@
 import Nav from "../Navbar/Nav"
 import Footer from "../Footer/Footer"
 
-export default function Details(){
+export default function Details1(){
     return(
         <>
         <Nav/>

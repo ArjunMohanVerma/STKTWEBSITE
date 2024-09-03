@@ -9,7 +9,12 @@ import { Route, Routes } from "react-router-dom"
 import Nav from "./pages/Navbar/Nav"
 import Login from "./pages/Login/Login"
 import Signup from "./pages/Login/Signup"
-import Details from "./pages/Details/Details"
+import Details1 from "./pages/Details/Details1"
+import Details2 from "./pages/Details/Details2"
+import Details3 from "./pages/Details/Details3"
+import Details4 from "./pages/Details/Details4"
+import Details5 from "./pages/Details/Details5"
+import Details6 from "./pages/Details/Details6"
 
 
 
@@ -30,7 +35,12 @@ function App() {
           {/* <Route path="/ShopProducts" element={<ShopProducts />} /> */}
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
-          <Route path="/details" element={<Details />} />
+          <Route path="/details1" element={<Details1 />} />
+          <Route path="/details2" element={<Details2 />} />
+          <Route path="/details3" element={<Details3 />} />
+          <Route path="/details4" element={<Details4 />} />
+          <Route path="/details5" element={<Details5 />} />
+          <Route path="/details6" element={<Details6 />} />
         </Routes>
         
       </div>

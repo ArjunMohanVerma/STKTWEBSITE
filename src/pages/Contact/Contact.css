@@ -33,7 +33,8 @@
     overflow: hidden;
 }
 .table{
-    margin-left:5rem;
+    /* margin-left:5rem; */
+    margin:auto;
 }
 .label{
     font-size:1.4rem;
@@ -51,7 +52,7 @@
 }
 .btn{
     box-shadow:1px 1px 1px black;
-    margin-left:3vw;
+    margin:auto;
     width:8rem;
     height:3rem;
     color:white; 
@@ -87,9 +88,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-left:4rem;
+    /* margin-left:4rem;
     margin-top:1.5rem;
-    margin-bottom:2rem;
+    margin-bottom:2rem; */
+    margin:auto;
 }
 
 
@@ -118,11 +120,13 @@
    }
     .div2{
         width:17rem !important;
-        height: 28rem !important;
-        margin-left:0.5rem !important;
+        height: 30rem !important;
+        margin: auto !important;
+        box-shadow: 3px 3px 3px 3px black;
     }
     .table{
-        margin-left:0.5rem;
+        /* margin-left:0.5rem; */
+        margin:auto;
     }
     .div1{
         width:25rem;
@@ -136,14 +140,13 @@
     }
     .btn{
         box-shadow:1px 1px 1px black;
-        margin-left:3vw;
+        margin:auto;
         width:5rem;
         height:2rem;
         color:white; 
         background-color:blueviolet;
         font-size:1rem;
-        margin-top:0.5rem;
-        border-radius:1rem;
+        border-radius:0.5rem;
     }
     .add{
         color:#791dae;

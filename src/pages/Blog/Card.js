@@ -17,7 +17,6 @@ function Card({ imageSource, title, text, url }) {
         </p>
         <a
           href={url ? url : "#!"}
-          target="_blank"
           className="tn"
           rel="noreferrer"
         >

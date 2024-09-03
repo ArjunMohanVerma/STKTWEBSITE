@@ -98,7 +98,7 @@ export default function Contact(){
               <tr>
               <td><label className="label">Message : <br/></label></td>
               <td><textarea className="txtarea" required onChange={handleChange} name="message" rows="5" cols="25" value={details.message} id="msg" placeholder="Enter Your Message Here" ></textarea></td>
-              </tr><br/>
+              </tr><br/><br/>
               </table>
               <input type="submit" value="Send" className="btn"/>
             </form>
